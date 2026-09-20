@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Snaption — Download videos &amp; audio from any link</title>
+<style>
+  :root {
+    --bg: #0a0a12;
+    --card: #14141f;
+    --border: rgba(255,255,255,0.08);
+    --text: #f5f5f7;
+    --muted: #9a9aa8;
+    --amber: #ffa733;
+    --amber-soft: rgba(255,167,51,0.12);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 48px 20px 64px;
+  }
+  .logo {
+    width: 84px;
+    height: 84px;
+    border-radius: 22px;
+    background: linear-gradient(145deg, #2dd4e8, #7c4dff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    box-shadow: 0 0 40px rgba(124,77,255,0.35);
+  }
+  h1 {
+    font-size: 30px;
+    margin: 0 0 6px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  h1 span { color: var(--amber); }
+  .tagline {
+    color: var(--muted);
+    font-size: 15px;
+    margin: 0 0 32px;
+    text-align: center;
+    max-width: 320px;
+  }
+  .download-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--amber);
+    color: #1a1200;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 32px;
+    border-radius: 999px;
+    text-decoration: none;
+    box-shadow: 0 8px 24px rgba(255,167,51,0.3);
+    transition: transform 0.15s ease;
+  }
+  .download-btn:active { transform: scale(0.97); }
+  .meta {
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 12px;
+  }
+  .card {
+    width: 100%;
+    max-width: 420px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  .card h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    margin: 0 0 14px;
+  }
+  .steps { margin: 0; padding: 0; list-style: none; }
+  .steps li {
+    display: flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .steps li:last-child { border-bottom: none; }
+  .step-num {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--amber-soft);
+    color: var(--amber);
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    max-width: 420px;
+    margin-top: 28px;
+  }
+  .chip {
+    font-size: 12px;
+    color: var(--muted);
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 999px;
+  }
+  footer {
+    margin-top: 48px;
+    color: var(--muted);
+    font-size: 12px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+  <div class="logo">S</div>
+  <h1>Snaption<span>.</span></h1>
+  <p class="tagline">Paste a link, download the video or audio. Works with 1000+ sites.</p>
+
+  <!-- Replace the href below with your GitHub Release asset URL -->
+  <a class="download-btn" href="APK_DOWNLOAD_LINK_HERE" download>
+    ⬇ Download APK
+  </a>
+  <div class="meta">Free · Android 8.0+ · v2.4.1</div>
+
+  <div class="features">
+    <span class="chip">No ads inside downloads</span>
+    <span class="chip">Background downloads</span>
+    <span class="chip">Subtitles support</span>
+  </div>
+
+  <div class="card">
+    <h2>How to install</h2>
+    <ol class="steps">
+      <li><span class="step-num">1</span> Tap "Download APK" above.</li>
+      <li><span class="step-num">2</span> Open the downloaded file from your notifications or Downloads folder.</li>
+      <li><span class="step-num">3</span> If prompted, allow "Install unknown apps" for your browser — this is normal for apps installed outside the Play Store.</li>
+      <li><span class="step-num">4</span> Tap Install, then open Snaption.</li>
+    </ol>
+  </div>
+
+  <footer>
+    Snaption is distributed independently and is not available on the Play Store.
+  </footer>
+
+</body>
+</html>
